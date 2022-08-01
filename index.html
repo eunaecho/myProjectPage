@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="65FB - 링크">
+        <meta property="og:description" content="65FB 쉽게 이용하기">
+        <meta property="og:image" content="65FB_Image.png">
+        <title>65FB</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+
+            body {
+                background-color: gainsboro ;
+            }
+
+            .wrap {
+                width: 300px;
+                margin: 30px auto 0px auto;
+
+                /* 안에 내용 정리 - display flex*/
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .wrap > a {
+                width: 300px;
+                height: 50px;
+                background-color: white;
+                border-radius: 10px;
+                margin-bottom: 10px;
+                font-size: 14px;
+                font-weight: bold;
+                color:rgb(66, 99, 126);
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+                box-shadow: 3px 3px 5px 0px gray;
+            }
+
+            .wrap>a:hover {
+                background-color: aliceblue;
+            }
+
+            .profile {
+                width: 140px;
+                height: 140px;
+                background-color: white;
+                border-radius: 100%;
+                border: 2px solid steelblue;
+
+                background-image: url('65FB_Image.png');
+                background-position: center;
+                background-size: cover;
+            }
+
+            .main {
+                color: steelblue;
+                font-size: 18px;
+
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+
+            .sub {
+                color: white;
+                font-size: 14px;
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h2 class="main">65FB</h2>
+            <p class="sub">가을 하늘</p>
+            <a target="_blank" href="https://spartacodingclub.kr/">스파르타코딩클럽</a>
+            <a target="_blank" href="https://hanghae99.spartacodingclub.kr/">항해99</a>
+            <a target="_blank" href="https://chang.spartacodingclub.kr/">창업 부트캠프 창</a>
+            <a target="_blank" href="https://ddingdong.spartacodingclub.kr/">띵동코딩</a>
+        </div>
+    </body>
+</html>
